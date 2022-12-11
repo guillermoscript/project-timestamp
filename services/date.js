@@ -1,11 +1,8 @@
 function parseDate(date) {
-    if (/\d/.test(date)) {
-        date = parseInt(date);
-    }
-    console.log(date, 'date')
+    date = date > 0 ? +date : date;
     const parseDate = new Date(date);
 
-    if (isNaN(date) || isNaN(parseDate.getTime() || parseDate.getTime() < 0)) {
+    if (isNaN(parseDate) || isNaN(parseDate.getTime() || parseDate.getTime() < 0)) {
         return { error: 'Invalid Date' };
     }
 
