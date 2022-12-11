@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.example-usage {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
